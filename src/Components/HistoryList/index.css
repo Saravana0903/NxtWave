@@ -1,17 +1,29 @@
+.main-con {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  overflow-y: auto;
+}
+
 .bg-container {
   background-color: blue;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   padding-left: 10px;
   padding-right: 10px;
-  height: 20vh;
+  height: 10vh;
 }
 .flex-con {
   display: flex;
   justify-content: space-between;
 }
+.logo-con {
+  margin-right: auto;
+}
 .logo {
+  height: 45px;
   width: 120px;
 }
 .search-con {
@@ -23,29 +35,39 @@
 .search-icon {
   border-right: 1px solid lightcyan;
 }
-.search {
-  width: 80px;
+.search1 {
+  width: 30px;
 }
 .search-box {
   color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .list-con {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 80vh;
+  height: 100vh;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 .ul-con {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   border-radius: 12px;
-  border: 1px solid lightslategray;
-  box-shadow: 1px 20px 1px 1px;
+  box-shadow: 1px 1px 5px 3px whitesmoke;
 }
 .no-item {
   color: #323f4b;
   font-family: 'Roboto';
   font-size: 24px;
+}
+.inpele {
+  background-color: transparent;
+  color: white;
+  font-size: 18px;
+  margin-left: 5px;
 }

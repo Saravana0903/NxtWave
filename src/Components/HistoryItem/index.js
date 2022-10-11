@@ -9,17 +9,25 @@ const HistoryItem = props => {
   }
   return (
     <li className="item-con">
-      <p className="time">{timeAccessed}</p>
-      <img src={logoUrl} className="logo-icon" alt="logo" />
-      <h1 className="head">{title}</h1>
-      <p className="domain">{domainUrl}</p>
-
-      <img
-        src="https://assets.ccbp.in/frontend/react-js/delete-img.png"
-        className="del-icon"
-        alt="delete"
-        onClick={removeItem}
-      />
+      <div className="item-in-list">
+        <p className="time">{timeAccessed}</p>
+      </div>
+      <div className="item-in-list">
+        <img src={logoUrl} className="logo-icon" alt="domain logo" />
+      </div>
+      <div className="item-in-list">
+        <p className="head">{title}</p>
+      </div>
+      <div className="item-in-list">
+        <p className="domain">{domainUrl}</p>
+      </div>
+      <button className="item-in-list" onClick={removeItem} testid="delete">
+        <img
+          src="https://assets.ccbp.in/frontend/react-js/delete-img.png"
+          className="del-icon"
+          alt="delete"
+        />
+      </button>
     </li>
   )
 }

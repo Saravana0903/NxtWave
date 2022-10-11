@@ -1,27 +1,40 @@
 .item-con {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-around;
+  align-items: center;
   padding: 7px;
+}
+.item-in-list {
+  margin-left: auto;
+  margin-right: auto;
+  flex-wrap: wrap;
 }
 .time {
   color: #323f4b;
   font-family: 'Roboto';
-  font-size: 24px;
+  font-size: 18px;
+  margin-right: 5px;
 }
 .logo-icon {
-  width: 80px;
+  height: 40px;
+  width: 40px;
+  margin-right: 5px;
 }
 .head {
   color: #475569;
   font-family: 'Roboto';
-  font-size: 24px;
+  font-size: 20px;
+  margin-right: 5px;
+  max-width: 300px;
 }
 .domain {
-  color: #ececec;
+  color: grey;
   font-family: 'Roboto';
-  font-size: 24px;
+  font-size: 16px;
+  margin-right: 5px;
 }
 .del-icon {
-  width: 80px;
+  height: 30px;
+  width: 30px;
 }

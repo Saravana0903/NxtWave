@@ -1,26 +1,38 @@
-import useState from 'react'
+import {useState} from 'react'
 import HistoryItem from '../HistoryItem'
 import './index.css'
 
 const HistoryList = props => {
   const {initialHistoryList} = props
-  const [updatedList, setUpdatedList] = useState(initialHistoryList)
-  const filteredList = [...updatedList]
+  const [updatedList, setUpdatedList] = useState({
+    search: '',
+    initialHistoryList,
+  })
 
   const updateOnClick = id => {
-    const newList = updatedList.filter(each => each.id !== id)
-    setUpdatedList(newList)
+    const newList = updatedList.initialHistoryList.filter(
+      each => each.id !== id,
+    )
+    setUpdatedList(prev => ({...prev, initialHistoryList: newList}))
   }
 
   const controlList = event => {
-    const lyst = updatedList.filter(each =>
-      each.toLowerCase(each.title).includes(event.target.value),
+    const lyst = updatedList.initialHistoryList.filter(each =>
+      each.title.toLowerCase().includes(event.target.value),
     )
-    setUpdatedList(lyst)
+
+    // setSearch(event.target.value)
+    console.log(event.target.value)
+    setUpdatedList(prev => ({
+      ...prev,
+      search: event.target.value,
+      initialHistoryList: lyst,
+    }))
   }
+  console.log(updatedList)
 
   return (
-    <>
+    <div className="main-con">
       <div className="bg-container">
         <div className="flex-con">
           <div className="logo-con">
@@ -34,16 +46,17 @@ const HistoryList = props => {
             <div className="search-icon">
               <img
                 src="https://assets.ccbp.in/frontend/react-js/search-img.png"
-                className="search"
+                className="search1"
                 alt="search"
               />
             </div>
             <div className="search-box">
               <input
-                type="text"
+                type="search"
                 placeholder="type to search"
                 className="inpele"
                 onChange={controlList}
+                value={updatedList.search}
               />
             </div>
           </div>
@@ -51,20 +64,21 @@ const HistoryList = props => {
       </div>
 
       <div className="list-con">
-        {updatedList.length > 0 ? (
+        {updatedList.initialHistoryList.length > 0 ? (
           <ul className="ul-con">
-            {filteredList.map(eachItem => (
+            {updatedList.initialHistoryList.map(eachItem => (
               <HistoryItem
                 eachItemDetails={eachItem}
                 clickDelete={updateOnClick}
+                key={eachItem.id}
               />
             ))}
           </ul>
         ) : (
-          <p className="no-item"> No Items to Show </p>
+          <p className="no-item">There is no history to show</p>
         )}
       </div>
-    </>
+    </div>
   )
 }
 export default HistoryList
