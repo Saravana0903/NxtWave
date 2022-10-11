@@ -1,0 +1,27 @@
+.item-con {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 7px;
+}
+.time {
+  color: #323f4b;
+  font-family: 'Roboto';
+  font-size: 24px;
+}
+.logo-icon {
+  width: 80px;
+}
+.head {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 24px;
+}
+.domain {
+  color: #ececec;
+  font-family: 'Roboto';
+  font-size: 24px;
+}
+.del-icon {
+  width: 80px;
+}

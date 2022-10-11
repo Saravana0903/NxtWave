@@ -5,7 +5,11 @@
     {
       "src": "img/favicon.ico",
       "sizes": "64x64 32x32 24x24 16x16",
+<<<<<<< HEAD
       "type": "image/x-icon"
+=======
+      "type": "image/x-logo-url"
+>>>>>>> added react project
     },
     {
       "src": "img/logo192.png",

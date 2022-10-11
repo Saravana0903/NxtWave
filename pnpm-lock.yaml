@@ -1,8 +1,16 @@
 dependencies:
+<<<<<<< HEAD
+=======
+  '@fortawesome/react-fontawesome': 0.2.0_react@17.0.1
+>>>>>>> added react project
   '@testing-library/jest-dom': 5.11.9
   '@testing-library/react': 11.2.5_react-dom@17.0.1+react@17.0.1
   '@testing-library/user-event': 12.6.2
   chalk: 4.1.0
+<<<<<<< HEAD
+=======
+  font-awesome: 4.7.0
+>>>>>>> added react project
   react: 17.0.1
   react-dom: 17.0.1_react@17.0.1
 devDependencies:
@@ -2236,7 +2244,11 @@ packages:
       babel-plugin-polyfill-corejs2: 0.3.3_@babel+core@7.12.3
       babel-plugin-polyfill-corejs3: 0.6.0_@babel+core@7.12.3
       babel-plugin-polyfill-regenerator: 0.4.1_@babel+core@7.12.3
+<<<<<<< HEAD
       core-js-compat: 3.25.5
+=======
+      core-js-compat: 3.25.3
+>>>>>>> added react project
       semver: 6.3.0
     dev: true
     engines:
@@ -2321,7 +2333,11 @@ packages:
       babel-plugin-polyfill-corejs2: 0.3.3_@babel+core@7.19.3
       babel-plugin-polyfill-corejs3: 0.6.0_@babel+core@7.19.3
       babel-plugin-polyfill-regenerator: 0.4.1_@babel+core@7.19.3
+<<<<<<< HEAD
       core-js-compat: 3.25.5
+=======
+      core-js-compat: 3.25.3
+>>>>>>> added react project
       semver: 6.3.0
     dev: true
     engines:
@@ -2403,7 +2419,11 @@ packages:
       integrity: sha512-s9ik86kXBAnD760aybBucdpnLsAt0jK1xqJn2juOn9lkOvSHV60os5hxoVJsPzMQxvnUJFAlkont2DvvaYEBtQ==
   /@babel/runtime-corejs3/7.19.1:
     dependencies:
+<<<<<<< HEAD
       core-js-pure: 3.25.5
+=======
+      core-js-pure: 3.25.3
+>>>>>>> added react project
       regenerator-runtime: 0.13.9
     engines:
       node: '>=6.9.0'
@@ -2493,6 +2513,19 @@ packages:
       node: ^10.12.0 || >=12.0.0
     resolution:
       integrity: sha512-J6KFFz5QCYUJq3pf0mjEcCJVERbzv71PUIDczuh9JkwGEzced6CO5ADLHB1rbf/+oPBtoPfMYNOpGDzCANlbXw==
+<<<<<<< HEAD
+=======
+  /@fortawesome/react-fontawesome/0.2.0_react@17.0.1:
+    dependencies:
+      prop-types: 15.8.1
+      react: 17.0.1
+    dev: false
+    peerDependencies:
+      '@fortawesome/fontawesome-svg-core': ~1 || ~6
+      react: '>=16.3'
+    resolution:
+      integrity: sha512-uHg75Rb/XORTtVt7OS9WoK8uM276Ufi7gCzshVWkUJbHhh3svsUUeqXerrM96Wm7fRiDzfKRwSoahhMIkGAYHw==
+>>>>>>> added react project
   /@gar/promisify/1.1.3:
     dev: true
     resolution:
@@ -2564,7 +2597,11 @@ packages:
   /@jest/console/26.6.2:
     dependencies:
       '@jest/types': 26.6.2
+<<<<<<< HEAD
       '@types/node': 18.8.2
+=======
+      '@types/node': 18.7.23
+>>>>>>> added react project
       chalk: 4.1.0
       jest-message-util: 26.6.2
       jest-util: 26.6.2
@@ -2581,7 +2618,11 @@ packages:
       '@jest/test-result': 26.6.2
       '@jest/transform': 26.6.2
       '@jest/types': 26.6.2
+<<<<<<< HEAD
       '@types/node': 18.8.2
+=======
+      '@types/node': 18.7.23
+>>>>>>> added react project
       ansi-escapes: 4.3.2
       chalk: 4.1.0
       exit: 0.1.2
@@ -2613,7 +2654,11 @@ packages:
     dependencies:
       '@jest/fake-timers': 26.6.2
       '@jest/types': 26.6.2
+<<<<<<< HEAD
       '@types/node': 18.8.2
+=======
+      '@types/node': 18.7.23
+>>>>>>> added react project
       jest-mock: 26.6.2
     dev: true
     engines:
@@ -2632,7 +2677,11 @@ packages:
     dependencies:
       '@jest/types': 26.6.2
       '@sinonjs/fake-timers': 6.0.1
+<<<<<<< HEAD
       '@types/node': 18.8.2
+=======
+      '@types/node': 18.7.23
+>>>>>>> added react project
       jest-message-util: 26.6.2
       jest-mock: 26.6.2
       jest-util: 26.6.2
@@ -2751,7 +2800,11 @@ packages:
     dependencies:
       '@types/istanbul-lib-coverage': 2.0.4
       '@types/istanbul-reports': 3.0.1
+<<<<<<< HEAD
       '@types/node': 18.8.2
+=======
+      '@types/node': 18.7.23
+>>>>>>> added react project
       '@types/yargs': 15.0.14
       chalk: 4.1.0
     engines:
@@ -2763,7 +2816,11 @@ packages:
       '@jest/schemas': 29.0.0
       '@types/istanbul-lib-coverage': 2.0.4
       '@types/istanbul-reports': 3.0.1
+<<<<<<< HEAD
       '@types/node': 18.8.2
+=======
+      '@types/node': 18.7.23
+>>>>>>> added react project
       '@types/yargs': 17.0.13
       chalk: 4.1.0
     dev: false
@@ -2847,7 +2904,11 @@ packages:
   /@npmcli/fs/1.1.1:
     dependencies:
       '@gar/promisify': 1.1.3
+<<<<<<< HEAD
       semver: 7.3.8
+=======
+      semver: 7.3.7
+>>>>>>> added react project
     dev: true
     resolution:
       integrity: sha512-8KG5RD0GVP4ydEzRn/I4BNDuxDtqVbOdm8675T49OIG/NGhaK0pjPX7ZcDlvKYbA+ulvVK3ztfcF4uBdOxuJbQ==
@@ -3190,13 +3251,21 @@ packages:
   /@types/glob/7.2.0:
     dependencies:
       '@types/minimatch': 5.1.2
+<<<<<<< HEAD
       '@types/node': 18.8.2
+=======
+      '@types/node': 18.7.23
+>>>>>>> added react project
     dev: true
     resolution:
       integrity: sha512-ZUxbzKl0IfJILTS6t7ip5fQQM/J3TJYubDm3nMbgubNNYS62eXeUpoLUC8/7fJNiFYHTrGPQn7hspDUzIHX3UA==
   /@types/graceful-fs/4.1.5:
     dependencies:
+<<<<<<< HEAD
       '@types/node': 18.8.2
+=======
+      '@types/node': 18.7.23
+>>>>>>> added react project
     dev: true
     resolution:
       integrity: sha512-anKkLmZZ+xm4p8JWBf4hElkM4XR+EZeA2M9BAkkTldmcyDY4mbdIJnRghDJH3Ov5ooY7/UAoENtmdMSkaAd7Cw==
@@ -3236,9 +3305,15 @@ packages:
     dev: true
     resolution:
       integrity: sha512-K0VQKziLUWkVKiRVrx4a40iPaxTUefQmjtkQofBkYRcoaaL/8rhwDWww9qWbrgicNOgnpIsMxyNIUM4+n6dUIA==
+<<<<<<< HEAD
   /@types/node/18.8.2:
     resolution:
       integrity: sha512-cRMwIgdDN43GO4xMWAfJAecYn8wV4JbsOGHNfNUIDiuYkUYAR5ec4Rj7IO2SAhFPEfpPtLtUTbbny/TCT7aDwA==
+=======
+  /@types/node/18.7.23:
+    resolution:
+      integrity: sha512-DWNcCHolDq0ZKGizjx2DZjR/PqsYwAcYUJmfMWqtVU2MBMG5Mo+xFZrhGId5r/O5HOuMPyQEcM6KUBp5lBZZBg==
+>>>>>>> added react project
   /@types/normalize-package-data/2.4.1:
     dev: true
     resolution:
@@ -3257,7 +3332,11 @@ packages:
       integrity: sha512-L28j2FcJfSZOnL1WBjDYp2vUHCeIFlyYI/53EwD/rKUBQ7MtUUfbQWiyKJGpcnv4/WgrhWsFKrcPstcAt/J0tQ==
   /@types/resolve/0.0.8:
     dependencies:
+<<<<<<< HEAD
       '@types/node': 18.8.2
+=======
+      '@types/node': 18.7.23
+>>>>>>> added react project
     dev: true
     resolution:
       integrity: sha512-auApPaJf3NPfe18hSoJkp8EbZzer2ISk7o8mCC3M9he/a04+gbMF97NkpD2S8riMGvm4BMRI59/SZQSaLTKpsQ==
@@ -3286,7 +3365,11 @@ packages:
       integrity: sha512-3HO6rm0y+/cqvOyA8xcYLweF0TKXlAxmQASjbOi49Co51A1N4nR4bEwBgRoD9kNM+rqFGArjKr654SLp2CoGmQ==
   /@types/webpack-sources/3.2.0:
     dependencies:
+<<<<<<< HEAD
       '@types/node': 18.8.2
+=======
+      '@types/node': 18.7.23
+>>>>>>> added react project
       '@types/source-list-map': 0.1.2
       source-map: 0.7.4
     dev: true
@@ -3294,7 +3377,11 @@ packages:
       integrity: sha512-Ft7YH3lEVRQ6ls8k4Ff1oB4jN6oy/XmU6tQISKdhfh+1mR+viZFphS6WL0IrtDOzvefmJg5a0s7ZQoRXwqTEFg==
   /@types/webpack/4.41.32:
     dependencies:
+<<<<<<< HEAD
       '@types/node': 18.8.2
+=======
+      '@types/node': 18.7.23
+>>>>>>> added react project
       '@types/tapable': 1.0.8
       '@types/uglify-js': 3.17.0
       '@types/webpack-sources': 3.2.0
@@ -3327,7 +3414,11 @@ packages:
       functional-red-black-tree: 1.0.1
       ignore: 5.2.0
       regexpp: 3.2.0
+<<<<<<< HEAD
       semver: 7.3.8
+=======
+      semver: 7.3.7
+>>>>>>> added react project
       tsutils: 3.21.0
     dev: true
     engines:
@@ -3419,7 +3510,11 @@ packages:
       glob: 7.2.3
       is-glob: 4.0.3
       lodash: 4.17.21
+<<<<<<< HEAD
       semver: 7.3.8
+=======
+      semver: 7.3.7
+>>>>>>> added react project
       tsutils: 3.21.0
     dev: true
     engines:
@@ -3438,7 +3533,11 @@ packages:
       debug: 4.3.4
       globby: 11.1.0
       is-glob: 4.0.3
+<<<<<<< HEAD
       semver: 7.3.8
+=======
+      semver: 7.3.7
+>>>>>>> added react project
       tsutils: 3.21.0
     dev: true
     engines:
@@ -4002,7 +4101,11 @@ packages:
   /autoprefixer/9.8.8:
     dependencies:
       browserslist: 4.21.4
+<<<<<<< HEAD
       caniuse-lite: 1.0.30001415
+=======
+      caniuse-lite: 1.0.30001414
+>>>>>>> added react project
       normalize-range: 0.1.2
       num2fraction: 1.2.2
       picocolors: 0.2.1
@@ -4030,7 +4133,11 @@ packages:
       '@babel/types': 7.19.3
       eslint: 7.32.0
       eslint-visitor-keys: 1.3.0
+<<<<<<< HEAD
       resolve: 1.18.1
+=======
+      resolve: 1.22.1
+>>>>>>> added react project
     deprecated: babel-eslint is now @babel/eslint-parser. This package will no longer receive updates.
     dev: true
     engines:
@@ -4174,7 +4281,11 @@ packages:
     dependencies:
       '@babel/core': 7.12.3
       '@babel/helper-define-polyfill-provider': 0.3.3_@babel+core@7.12.3
+<<<<<<< HEAD
       core-js-compat: 3.25.5
+=======
+      core-js-compat: 3.25.3
+>>>>>>> added react project
     dev: true
     peerDependencies:
       '@babel/core': ^7.0.0-0
@@ -4184,7 +4295,11 @@ packages:
     dependencies:
       '@babel/core': 7.19.3
       '@babel/helper-define-polyfill-provider': 0.3.3_@babel+core@7.19.3
+<<<<<<< HEAD
       core-js-compat: 3.25.5
+=======
+      core-js-compat: 3.25.3
+>>>>>>> added react project
     dev: true
     peerDependencies:
       '@babel/core': ^7.0.0-0
@@ -4524,8 +4639,13 @@ packages:
       integrity: sha512-Z942RysHXmJrhqk88FmKBVq/v5tqmSkDz7p54G/MGyjMnCFFnC79XWNbg+Vta8W6Wb2qtSZTSxIGkJrRpCFEiA==
   /browserslist/4.14.2:
     dependencies:
+<<<<<<< HEAD
       caniuse-lite: 1.0.30001415
       electron-to-chromium: 1.4.272
+=======
+      caniuse-lite: 1.0.30001414
+      electron-to-chromium: 1.4.269
+>>>>>>> added react project
       escalade: 3.1.1
       node-releases: 1.1.77
     dev: true
@@ -4536,8 +4656,13 @@ packages:
       integrity: sha512-HI4lPveGKUR0x2StIz+2FXfDk9SfVMrxn6PLh1JeGUwcuoDkdKZebWiyLRJ68iIPDpMI4JLVDf7S7XzslgWOhw==
   /browserslist/4.21.4:
     dependencies:
+<<<<<<< HEAD
       caniuse-lite: 1.0.30001415
       electron-to-chromium: 1.4.272
+=======
+      caniuse-lite: 1.0.30001414
+      electron-to-chromium: 1.4.269
+>>>>>>> added react project
       node-releases: 2.0.6
       update-browserslist-db: 1.0.9_browserslist@4.21.4
     dev: true
@@ -4712,16 +4837,27 @@ packages:
   /caniuse-api/3.0.0:
     dependencies:
       browserslist: 4.21.4
+<<<<<<< HEAD
       caniuse-lite: 1.0.30001415
+=======
+      caniuse-lite: 1.0.30001414
+>>>>>>> added react project
       lodash.memoize: 4.1.2
       lodash.uniq: 4.5.0
     dev: true
     resolution:
       integrity: sha512-bsTwuIg/BZZK/vreVTYYbSWoe2F+71P7K5QGEX+pT250DZbfU1MQ5prOKpPR+LL6uWKK3KMwMCAS74QB3Um1uw==
+<<<<<<< HEAD
   /caniuse-lite/1.0.30001415:
     dev: true
     resolution:
       integrity: sha512-ER+PfgCJUe8BqunLGWd/1EY4g8AzQcsDAVzdtMGKVtQEmKAwaFfU6vb7EAVIqTMYsqxBorYZi2+22Iouj/y7GQ==
+=======
+  /caniuse-lite/1.0.30001414:
+    dev: true
+    resolution:
+      integrity: sha512-t55jfSaWjCdocnFdKQoO+d2ct9C59UZg4dY3OnUlSZ447r8pUtIKdp0hpAzrGFultmTC+Us+KpKi4GZl/LXlFg==
+>>>>>>> added react project
   /capture-exit/2.0.0:
     dependencies:
       rsvp: 4.8.5
@@ -5127,27 +5263,47 @@ packages:
       node: '>=0.10.0'
     resolution:
       integrity: sha512-XgZ0pFcakEUlbwQEVNg3+QAis1FyTL3Qel9FYy8pSkQqoG3PNoT0bOCQtOXcOkur21r2Eq2kI+IE+gsmAEVlYw==
+<<<<<<< HEAD
   /core-js-compat/3.25.5:
+=======
+  /core-js-compat/3.25.3:
+>>>>>>> added react project
     dependencies:
       browserslist: 4.21.4
     dev: true
     resolution:
+<<<<<<< HEAD
       integrity: sha512-ovcyhs2DEBUIE0MGEKHP4olCUW/XYte3Vroyxuh38rD1wAO4dHohsovUC4eAOuzFxE6b+RXvBU3UZ9o0YhUTkA==
   /core-js-pure/3.25.5:
     requiresBuild: true
     resolution:
       integrity: sha512-oml3M22pHM+igfWHDfdLVq2ShWmjM2V4L+dQEBs0DWVIqEm9WHCwGAlZ6BmyBQGy5sFrJmcx+856D9lVKyGWYg==
+=======
+      integrity: sha512-xVtYpJQ5grszDHEUU9O7XbjjcZ0ccX3LgQsyqSvTnjX97ZqEgn9F5srmrwwwMtbKzDllyFPL+O+2OFMl1lU4TQ==
+  /core-js-pure/3.25.3:
+    requiresBuild: true
+    resolution:
+      integrity: sha512-T/7qvgv70MEvRkZ8p6BasLZmOVYKzOaWNBEHAU8FmveCJkl4nko2quqPQOmy6AJIp5MBanhz9no3A94NoRb0XA==
+>>>>>>> added react project
   /core-js/2.6.12:
     deprecated: core-js@<3.23.3 is no longer maintained and not recommended for usage due to the number of issues. Because of the V8 engine whims, feature detection in old core-js versions could cause a slowdown up to 100x even if nothing is polyfilled. Some versions have web compatibility issues. Please, upgrade your dependencies to the actual version of core-js.
     dev: true
     requiresBuild: true
     resolution:
       integrity: sha512-Kb2wC0fvsWfQrgk8HU5lW6U/Lcs8+9aaYcy4ZFc6DDlo4nZ7n70dEgE5rtR0oG6ufKDUnrwfWL1mXR5ljDatrQ==
+<<<<<<< HEAD
   /core-js/3.25.5:
     dev: true
     requiresBuild: true
     resolution:
       integrity: sha512-nbm6eZSjm+ZuBQxCUPQKQCoUEfFOXjUZ8dTTyikyKaWrTYmAVbykQfwsKE5dBK88u3QCkCrzsx/PPlKfhsvgpw==
+=======
+  /core-js/3.25.3:
+    dev: true
+    requiresBuild: true
+    resolution:
+      integrity: sha512-y1hvKXmPHvm5B7w4ln1S4uc9eV/O5+iFExSRUimnvIph11uaizFR8LFMdONN8hG3P2pipUfX4Y/fR8rAEtcHcQ==
+>>>>>>> added react project
   /core-util-is/1.0.3:
     dev: true
     resolution:
@@ -5894,10 +6050,17 @@ packages:
     requiresBuild: true
     resolution:
       integrity: sha512-7vmuyh5+kuUyJKePhQfRQBhXV5Ce+RnaeeQArKu1EAMpL3WbgMt5WG6uQZpEVvYSSsxMXRKOewtDk9RaTKXRlA==
+<<<<<<< HEAD
   /electron-to-chromium/1.4.272:
     dev: true
     resolution:
       integrity: sha512-KS6gPPGNrzpVv9HzFVq+Etd0AjZEPr5pvaTBn2yD6KV4+cKW4I0CJoJNgmTG6gUQPAMZ4wIPtcOuoou3qFAZCA==
+=======
+  /electron-to-chromium/1.4.269:
+    dev: true
+    resolution:
+      integrity: sha512-7mHFONwp7MNvdyto1v70fCwk28NJMFgsK79op+iYHzz1BLE8T66a1B2qW5alb8XgE0yi3FL3ZQjSYZpJpF6snw==
+>>>>>>> added react project
   /elliptic/6.5.4:
     dependencies:
       bn.js: 4.12.0
@@ -6905,6 +7068,15 @@ packages:
         optional: true
     resolution:
       integrity: sha512-VQLG33o04KaQ8uYi2tVNbdrWp1QWxNNea+nmIB4EVM28v0hmP17z7aG1+wAkNzVq4KeXTq3221ye5qTJP91JwA==
+<<<<<<< HEAD
+=======
+  /font-awesome/4.7.0:
+    dev: false
+    engines:
+      node: '>=0.10.3'
+    resolution:
+      integrity: sha512-U6kGnykA/6bFmg1M/oT9EkFeIYv7JlX3bozwQJWiiLz6L0w3F5vBVPxHlwyX/vtNq1ckcpRKOB9f2Qal/VtFpg==
+>>>>>>> added react project
   /for-in/1.0.2:
     dev: true
     engines:
@@ -8219,7 +8391,11 @@ packages:
       '@jest/test-result': 26.6.2
       '@jest/types': 26.6.2
       '@types/babel__traverse': 7.18.2
+<<<<<<< HEAD
       '@types/node': 18.8.2
+=======
+      '@types/node': 18.7.23
+>>>>>>> added react project
       chalk: 4.1.0
       co: 4.6.0
       dedent: 0.7.0
@@ -8338,7 +8514,11 @@ packages:
       '@jest/environment': 26.6.2
       '@jest/fake-timers': 26.6.2
       '@jest/types': 26.6.2
+<<<<<<< HEAD
       '@types/node': 18.8.2
+=======
+      '@types/node': 18.7.23
+>>>>>>> added react project
       jest-mock: 26.6.2
       jest-util: 26.6.2
       jsdom: 16.7.0
@@ -8352,7 +8532,11 @@ packages:
       '@jest/environment': 26.6.2
       '@jest/fake-timers': 26.6.2
       '@jest/types': 26.6.2
+<<<<<<< HEAD
       '@types/node': 18.8.2
+=======
+      '@types/node': 18.7.23
+>>>>>>> added react project
       jest-mock: 26.6.2
       jest-util: 26.6.2
     dev: true
@@ -8376,7 +8560,11 @@ packages:
     dependencies:
       '@jest/types': 26.6.2
       '@types/graceful-fs': 4.1.5
+<<<<<<< HEAD
       '@types/node': 18.8.2
+=======
+      '@types/node': 18.7.23
+>>>>>>> added react project
       anymatch: 3.1.2
       fb-watchman: 2.0.2
       graceful-fs: 4.2.10
@@ -8401,7 +8589,11 @@ packages:
       '@jest/source-map': 26.6.2
       '@jest/test-result': 26.6.2
       '@jest/types': 26.6.2
+<<<<<<< HEAD
       '@types/node': 18.8.2
+=======
+      '@types/node': 18.7.23
+>>>>>>> added react project
       chalk: 4.1.0
       co: 4.6.0
       expect: 26.6.2
@@ -8485,7 +8677,11 @@ packages:
   /jest-mock/26.6.2:
     dependencies:
       '@jest/types': 26.6.2
+<<<<<<< HEAD
       '@types/node': 18.8.2
+=======
+      '@types/node': 18.7.23
+>>>>>>> added react project
     dev: true
     engines:
       node: '>= 10.14.2'
@@ -8541,7 +8737,11 @@ packages:
       jest-pnp-resolver: 1.2.2_jest-resolve@26.6.0
       jest-util: 26.6.2
       read-pkg-up: 7.0.1
+<<<<<<< HEAD
       resolve: 1.18.1
+=======
+      resolve: 1.22.1
+>>>>>>> added react project
       slash: 3.0.0
     dev: true
     engines:
@@ -8569,7 +8769,11 @@ packages:
       '@jest/environment': 26.6.2
       '@jest/test-result': 26.6.2
       '@jest/types': 26.6.2
+<<<<<<< HEAD
       '@types/node': 18.8.2
+=======
+      '@types/node': 18.7.23
+>>>>>>> added react project
       chalk: 4.1.0
       emittery: 0.7.2
       exit: 0.1.2
@@ -8627,7 +8831,11 @@ packages:
       integrity: sha512-lrzyR3N8sacTAMeonbqpnSka1dHNux2uk0qqDXVkMv2c/A3wYnvQ4EXuI013Y6+gSKSCxdaczvf4HF0mVXHRdw==
   /jest-serializer/26.6.2:
     dependencies:
+<<<<<<< HEAD
       '@types/node': 18.8.2
+=======
+      '@types/node': 18.7.23
+>>>>>>> added react project
       graceful-fs: 4.2.10
     dev: true
     engines:
@@ -8651,7 +8859,11 @@ packages:
       jest-resolve: 26.6.2
       natural-compare: 1.4.0
       pretty-format: 26.6.2
+<<<<<<< HEAD
       semver: 7.3.8
+=======
+      semver: 7.3.7
+>>>>>>> added react project
     dev: true
     engines:
       node: '>= 10.14.2'
@@ -8660,7 +8872,11 @@ packages:
   /jest-util/26.6.2:
     dependencies:
       '@jest/types': 26.6.2
+<<<<<<< HEAD
       '@types/node': 18.8.2
+=======
+      '@types/node': 18.7.23
+>>>>>>> added react project
       chalk: 4.1.0
       graceful-fs: 4.2.10
       is-ci: 2.0.0
@@ -8673,7 +8889,11 @@ packages:
   /jest-util/29.1.2:
     dependencies:
       '@jest/types': 29.1.2
+<<<<<<< HEAD
       '@types/node': 18.8.2
+=======
+      '@types/node': 18.7.23
+>>>>>>> added react project
       chalk: 4.1.0
       ci-info: 3.4.0
       graceful-fs: 4.2.10
@@ -8717,7 +8937,11 @@ packages:
     dependencies:
       '@jest/test-result': 26.6.2
       '@jest/types': 26.6.2
+<<<<<<< HEAD
       '@types/node': 18.8.2
+=======
+      '@types/node': 18.7.23
+>>>>>>> added react project
       ansi-escapes: 4.3.2
       chalk: 4.1.0
       jest-util: 26.6.2
@@ -8738,7 +8962,11 @@ packages:
       integrity: sha512-51PE4haMSXcHohnSMdM42anbvZANYTqMrr52tVKPqqsPJMzoP6FYYDVqahX/HrAoKEKz3uUPzSvKs9A3qR4iVw==
   /jest-worker/26.6.2:
     dependencies:
+<<<<<<< HEAD
       '@types/node': 18.8.2
+=======
+      '@types/node': 18.7.23
+>>>>>>> added react project
       merge-stream: 2.0.0
       supports-color: 7.2.0
     dev: true
@@ -8748,7 +8976,11 @@ packages:
       integrity: sha512-KWYVV1c4i+jbMpaBC+U++4Va0cp8OisU185o73T1vo99hqi7w8tSJfUXYswwqqrjzwxa6KpRK54WhPvwf5w6PQ==
   /jest-worker/27.5.1:
     dependencies:
+<<<<<<< HEAD
       '@types/node': 18.8.2
+=======
+      '@types/node': 18.7.23
+>>>>>>> added react project
       merge-stream: 2.0.0
       supports-color: 8.1.1
     dev: true
@@ -9644,7 +9876,11 @@ packages:
     dependencies:
       growly: 1.3.0
       is-wsl: 2.2.0
+<<<<<<< HEAD
       semver: 7.3.8
+=======
+      semver: 7.3.7
+>>>>>>> added react project
       shellwords: 0.1.1
       uuid: 8.3.2
       which: 2.0.2
@@ -10848,7 +11084,11 @@ packages:
     dependencies:
       autoprefixer: 9.8.8
       browserslist: 4.21.4
+<<<<<<< HEAD
       caniuse-lite: 1.0.30001415
+=======
+      caniuse-lite: 1.0.30001414
+>>>>>>> added react project
       css-blank-pseudo: 0.1.4
       css-has-pseudo: 0.10.0
       css-prefers-color-scheme: 3.1.1
@@ -10927,7 +11167,11 @@ packages:
       integrity: sha512-2T5hcEHArDT6X9+9dVSPQdo7QHzG4XKclFT8rU5TzJPDN7RIRTbO9c4drUISOVemLj03aezStHCR2AIcr8XLpw==
   /postcss-safe-parser/5.0.2:
     dependencies:
+<<<<<<< HEAD
       postcss: 8.4.17
+=======
+      postcss: 8.4.16
+>>>>>>> added react project
     dev: true
     engines:
       node: '>=10.0'
@@ -11033,7 +11277,11 @@ packages:
       node: '>=6.0.0'
     resolution:
       integrity: sha512-yioayjNbHn6z1/Bywyb2Y4s3yvDAeXGOyxqD+LnVOinq6Mdmd++SW2wUNVzavyyHxd6+DxzWGIuosg6P1Rj8uA==
+<<<<<<< HEAD
   /postcss/8.4.17:
+=======
+  /postcss/8.4.16:
+>>>>>>> added react project
     dependencies:
       nanoid: 3.3.4
       picocolors: 1.0.0
@@ -11042,7 +11290,11 @@ packages:
     engines:
       node: ^10 || ^12 || >=14
     resolution:
+<<<<<<< HEAD
       integrity: sha512-UNxNOLQydcOFi41yHNMcKRZ39NeXlr8AxGuZJsdub8vIb12fHzcq37DTU/QtbI6WLxNg2gF9Z+8qtRwTj1UI1Q==
+=======
+      integrity: sha512-ipHE1XBvKzm5xI7hiHCZJCSugxvsdq2mPnsq5+UF+VHCjiBvtDrlxJfMBToWaP9D5XlgNmcFGqoHmUn0EYEaRQ==
+>>>>>>> added react project
   /prelude-ls/1.1.2:
     dev: true
     engines:
@@ -11149,7 +11401,10 @@ packages:
       loose-envify: 1.4.0
       object-assign: 4.1.1
       react-is: 16.13.1
+<<<<<<< HEAD
     dev: true
+=======
+>>>>>>> added react project
     resolution:
       integrity: sha512-oj87CgZICdulUohogVAR7AjlC0327U4el4L6eAvOqCeudMDVU0NThNaV+b9Df4dXgSP1gXMTnPdhfe/2qDH5cg==
   /proxy-addr/2.0.7:
@@ -11306,7 +11561,11 @@ packages:
       integrity: sha512-qqJBtEyVgS0ZmPGdCFPWJ3FreoqvG4MVQln/kCgF7Olq95IbOp0/BWyMwbdtn4VTvkM8Y7khCQ2Xgk/tcrCXig==
   /react-app-polyfill/2.0.0:
     dependencies:
+<<<<<<< HEAD
       core-js: 3.25.5
+=======
+      core-js: 3.25.3
+>>>>>>> added react project
       object-assign: 4.1.1
       promise: 8.2.0
       raf: 3.4.1
@@ -11364,7 +11623,10 @@ packages:
     resolution:
       integrity: sha512-/6UZ2qgEyH2aqzYZgQPxEnz33NJ2gNsnHA2o5+o4wW9bLM/JYQitNP9xPhsXwC08hMMovfGe/8retsdDsczPRg==
   /react-is/16.13.1:
+<<<<<<< HEAD
     dev: true
+=======
+>>>>>>> added react project
     resolution:
       integrity: sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==
   /react-is/17.0.2:
@@ -11871,7 +12133,11 @@ packages:
   /rollup/1.32.1:
     dependencies:
       '@types/estree': 1.0.0
+<<<<<<< HEAD
       '@types/node': 18.8.2
+=======
+      '@types/node': 18.7.23
+>>>>>>> added react project
       acorn: 7.4.1
     dev: true
     hasBin: true
@@ -12060,7 +12326,11 @@ packages:
     hasBin: true
     resolution:
       integrity: sha512-OrOb32TeeambH6UrhtShmF7CRDqhL6/5XpPNp2DuRH6+9QLw/orhp72j87v8Qa1ScDkvrrBNpZcDejAirJmfXQ==
+<<<<<<< HEAD
   /semver/7.3.8:
+=======
+  /semver/7.3.7:
+>>>>>>> added react project
     dependencies:
       lru-cache: 6.0.0
     dev: true
@@ -12068,7 +12338,11 @@ packages:
       node: '>=10'
     hasBin: true
     resolution:
+<<<<<<< HEAD
       integrity: sha512-NB1ctGL5rlHrPJtFDVIVzTyQylMLu9N9VICA6HSFJo8MCGVTMW6gfpicwKmmK/dAjTOrqu5l63JJOpDSrAis3A==
+=======
+      integrity: sha512-QlYTucUYOews+WeEujDoEGziz4K6c47V/Bd+LjSSYcA94p+DmINdf7ncaUinThfvZyu13lN9OY1XDxt8C0Tw0g==
+>>>>>>> added react project
   /send/0.18.0:
     dependencies:
       debug: 2.6.9
@@ -13997,6 +14271,10 @@ packages:
     resolution:
       integrity: sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==
 specifiers:
+<<<<<<< HEAD
+=======
+  '@fortawesome/react-fontawesome': 0.2.0
+>>>>>>> added react project
   '@testing-library/jest-dom': 5.11.9
   '@testing-library/react': 11.2.5
   '@testing-library/user-event': 12.6.2
@@ -14004,6 +14282,10 @@ specifiers:
   eslint-config-airbnb: 18.2.1
   eslint-config-prettier: 8.1.0
   eslint-plugin-prettier: 3.3.1
+<<<<<<< HEAD
+=======
+  font-awesome: 4.7.0
+>>>>>>> added react project
   husky: 4.3.8
   lint-staged: 10.5.4
   npm-run-all: 4.1.5
